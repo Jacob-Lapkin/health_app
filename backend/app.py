@@ -1,12 +1,13 @@
-from flask import Flask, redirect, render_template, jsonify, request, url_for
-from flask_bcrypt import Bcrypt, generate_password_hash, check_password_hash, session
+from flask import Flask, redirect, render_template, jsonify, request, url_for, session
+from flask_bcrypt import Bcrypt, generate_password_hash, check_password_hash
+
 from flask_sqlalchemy import SQLAlchemy
 from itsdangerous import json 
 from flask_jwt_extended import JWTManager, jwt_required, get_jwt_identity, create_access_token
 from models import db, User
 
 app = Flask(__name__)
-app.init_app(db)
+db.init_app(app)
 bcrypt = Bcrypt()
 
 app.config['SECRET_KEY'] = "asdsdanjdanjsda"
