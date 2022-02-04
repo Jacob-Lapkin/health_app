@@ -12,7 +12,7 @@ const routes = [
     children: [
       {
         path: '',
-        redirect: '/tabs/tab1'
+        redirect: '/landing'
       },
       {
         path: 'tab1',
@@ -31,6 +31,10 @@ const routes = [
   {
     path: '/eaten',
     component: () => import('@/views/EatenCalories.vue')
+  },
+  {
+    path: '/landing',
+    component: () => import('@/views/LandingPage.vue')
   },
 ]
 
