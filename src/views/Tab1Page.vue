@@ -1,7 +1,7 @@
 <template>
   <ion-page>
     <ion-header>
-      <ion-toolbar class="pt-3">
+      <ion-toolbar class="pt-5">
         <ion-title class="primary-font" color='primary'>Home</ion-title>
       </ion-toolbar>
     </ion-header>

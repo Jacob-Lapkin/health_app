@@ -1,7 +1,7 @@
 <template>
   <ion-page>
     <ion-header>
-      <ion-toolbar class="pt-4">
+      <ion-toolbar class="pt-5">
       <ion-title color='primary'>Eaten</ion-title>
 
       <ion-buttons slot="start">

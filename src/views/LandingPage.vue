@@ -7,14 +7,13 @@
         </div>
         <div>
           <h1 class="text-center fw-bold">
-            Weight Loss <br />
-            Tracker
+            Self Health
           </h1>
         </div>
 
-        <div class="container catchy-div ">
+        <div class="catchy-div ">
           <h1 class="text-center app-catchy">
-            Transforming <br />
+            Transform <br />
             Lifestyles
           </h1>
         </div>
@@ -24,7 +23,7 @@
         </div>
         <div class="text-center text-dark">
           <p>Already have an account?</p>
-          <ion-button fill='outline' color='dark' router-direction='forward' router-link='/eaten'>Signin</ion-button>
+          <ion-button fill='outline' color='dark' router-direction='forward' router-link='/tabs/tab1'>Signin</ion-button>
 
         </div>
       </div>
@@ -46,11 +45,11 @@ components : {
 <style>
 
 .register-div {
-  margin-top: 25vh;
+  margin-top: 15vh;
 }
 
 .catchy-div {
-  margin-top: 15vh;
+  margin-top: 10vh;
 }
 .app-catchy {
   font-size: 40px;
@@ -65,7 +64,7 @@ height: 100%;
 
 .bg {
  background: rgb(237,87,107);
-background: linear-gradient(216deg, rgba(237,87,107,1) 20%, rgba(1,85,126,1) 49%, rgba(237,87,107,1) 80%);
+background: linear-gradient(216deg, rgba(237,87,107,1) 13%, rgba(255,255,255,1) 49%, rgba(237,87,107,1) 87%);
 height: 100%;
 }
 
